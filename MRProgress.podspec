@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.social_media_url      = 'https://twitter.com/mrackwitz'
   s.author                = { 'Marius Rackwitz' => 'git@mariusrackwitz.de' }
   s.license               = 'MIT License'
-  s.source                = { :git => 'https://github.com/mrackwitz/MRProgress.git', :tag => s.version.to_s }
+  s.source                = { :git => 'https://github.com/Piascore/MRProgress.git', :tag => s.version.to_s }
   s.source_files          = 'src/MRProgress.h'
-  s.platform              = :ios, '7.0'
+  s.platform              = :ios, '9.0'
   s.requires_arc          = true
   s.default_subspecs      = %w{Blur ActivityIndicator Circular Icons NavigationBarProgress Overlay}
   
